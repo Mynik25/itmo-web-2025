@@ -100,13 +100,14 @@
     width: 100%;
     display: block;
     object-fit: cover;
+    filter: brightness(0.85);
   }
   .project-info {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.788), transparent);
     color: #fff;
     padding: 20px;
     text-align: left;
@@ -140,7 +141,7 @@
     position: relative;
   }
   .progress {
-    background: #ff7a00;
+    background: #3f5df7;
     height: 100%;
     width: 0;
     transition: width 1.5s ease-in-out;
